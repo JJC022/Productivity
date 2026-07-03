@@ -1,0 +1,191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4B4C6814A54A0D90A2A431 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D77E2B6E0F4A5E9E95B9A2 /* App.swift */; };
+		132E63F7A4DA4DEB8F8D0FFA /* ReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A4F8248C14A7CBFD1A05A /* ReminderController.swift */; };
+		E0A3FA62271E4F6B94A5B24C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A1662901D4B9DA50A9518 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14D77E2B6E0F4A5E9E95B9A2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityApp/App.swift; sourceTree = "<group>"; };
+		7E8A4F8248C14A7CBFD1A05A /* ReminderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityApp/ReminderController.swift; sourceTree = "<group>"; };
+		738A1662901D4B9DA50A9518 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityApp/ContentView.swift; sourceTree = "<group>"; };
+		8F5C7FE62CB24E83A6E1A0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductivityApp/Info.plist; sourceTree = "<group>"; };
+		C8D1E8BDEB604220A5BA8F2 /* Productivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Productivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D46D0DCA6046F2879A2881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82D54C4BA054B7784F1C0D7 /* ProductivityApp */ = {
+			isa = PBXGroup;
+			children = (
+				14D77E2B6E0F4A5E9E95B9A2 /* App.swift */,
+				7E8A4F8248C14A7CBFD1A05A /* ReminderController.swift */,
+				738A1662901D4B9DA50A9518 /* ContentView.swift */,
+				8F5C7FE62CB24E83A6E1A0AD /* Info.plist */,
+			);
+			path = ProductivityApp;
+			sourceTree = "<group>";
+		};
+		0DAF1A775AF24F4F9D46A4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D1E8BDEB604220A5BA8F2 /* Productivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9536D98E8E4C4CFFA6FBF6B /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F82D54C4BA054B7784F1C0D7 /* ProductivityApp */,
+				0DAF1A775AF24F4F9D46A4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F2FCF9E9CF4BF8AE626E8B /* Productivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFF3B81DCC8446AAE2EBC86 /* Build configuration list for PBXNativeTarget "Productivity" */;
+			buildPhases = (
+				EEDCFF1BAE6348FFB3A7F183 /* Sources */,
+				39D46D0DCA6046F2879A2881 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Productivity;
+			productName = Productivity;
+			productReference = C8D1E8BDEB604220A5BA8F2 /* Productivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF5A716B57B41FEA7A3B2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					87F2FCF9E9CF4BF8AE626E8B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 8853BE38CDD3498FA6EED36C /* Build configuration list for PBXProject "Productivity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9536D98E8E4C4CFFA6FBF6B /* Project */;
+			productRefGroup = 0DAF1A775AF24F4F9D46A4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F2FCF9E9CF4BF8AE626E8B /* Productivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDCFF1BAE6348FFB3A7F183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B4C6814A54A0D90A2A431 /* App.swift in Sources */,
+				132E63F7A4DA4DEB8F8D0FFA /* ReminderController.swift in Sources */,
+				E0A3FA62271E4F6B94A5B24C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C5F220682D34B9B9D7D1002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProductivityApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Productivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3B70910F4F514D0894AC1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProductivityApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Productivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8853BE38CDD3498FA6EED36C /* Build configuration list for PBXProject "Productivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5F220682D34B9B9D7D1002 /* Debug */,
+				3B70910F4F514D0894AC1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFF3B81DCC8446AAE2EBC86 /* Build configuration list for PBXNativeTarget "Productivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5F220682D34B9B9D7D1002 /* Debug */,
+				3B70910F4F514D0894AC1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = BAF5A716B57B41FEA7A3B2CC /* Project object */;
+}
